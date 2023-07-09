@@ -1,0 +1,192 @@
+/* Basic styling for the CRM website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  nav ul li a:hover {
+    color: #555;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+  /* setting css*/
+
+.settings-options {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+  gap: 20px;
+  }
+  
+  .setting-option {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .setting-option h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .setting-option p {
+    margin-bottom: 10px;
+  }
+
+  .setting-option:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn {
+    padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* task section css*/
+
+  /* ... previous code ... */
+
+.task-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .task-item {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .task-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .task-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .task-item .status {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .task-item .status.in-progress {
+    color: #ff9800;
+  }
+  
+  .task-item .status.not-started {
+    color: #f44336;
+  }
+  
+  .task-item .status.completed {
+    color: #4caf50;
+  }
+  
+  /* ... remaining code ... */
+  
+  
